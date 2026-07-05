@@ -1,0 +1,65 @@
+{
+  "apikey": "REDACTED",
+  "data": [
+    {
+      "teamName": "India",
+      "shortname": "IND",
+      "img": "https://example.invalid/ind.png",
+      "players": [
+        {
+          "id": "p1-rohit",
+          "name": "Rohit Sharma",
+          "role": "Batsman",
+          "battingStyle": "Right Handed Bat",
+          "country": "India"
+        },
+        {
+          "id": "p1-pant",
+          "name": "Rishabh Pant",
+          "role": "WK-Batsman",
+          "battingStyle": "Left Handed Bat",
+          "country": "India"
+        },
+        {
+          "id": "p1-bumrah",
+          "name": "Jasprit Bumrah",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast",
+          "country": "India"
+        },
+        {
+          "id": "p1-hardik",
+          "name": "Hardik Pandya",
+          "role": "Batting Allrounder",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm fast-medium",
+          "country": "India"
+        }
+      ]
+    },
+    {
+      "teamName": "England",
+      "shortname": "ENG",
+      "players": [
+        {
+          "id": "p1-buttler",
+          "name": "Jos Buttler",
+          "role": "WK-Batsman",
+          "battingStyle": "Right Handed Bat",
+          "country": "England"
+        },
+        {
+          "id": "p1-rashid",
+          "name": "Adil Rashid",
+          "role": "Bowler",
+          "battingStyle": "Right Handed Bat",
+          "bowlingStyle": "Right-arm legbreak",
+          "country": "England"
+        }
+      ]
+    }
+  ],
+  "status": "success",
+  "info": { "hitsToday": 6, "hitsLimit": 100 }
+}

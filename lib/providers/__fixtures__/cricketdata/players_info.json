@@ -1,0 +1,20 @@
+{
+  "apikey": "REDACTED",
+  "data": {
+    "id": "p1-kohli",
+    "name": "Virat Kohli",
+    "dateOfBirth": "1988-11-05T00:00:00",
+    "role": "Batsman",
+    "battingStyle": "Right Handed Bat",
+    "bowlingStyle": "Right-arm medium",
+    "placeOfBirth": "Delhi",
+    "country": "India",
+    "playerImg": "https://example.invalid/kohli.png",
+    "stats": [
+      { "fn": "batting", "matchtype": "t20i", "stat": "runs", "value": "4188" },
+      { "fn": "batting", "matchtype": "t20i", "stat": "sr", "value": "137.9" }
+    ]
+  },
+  "status": "success",
+  "info": { "hitsToday": 9, "hitsLimit": 100 }
+}

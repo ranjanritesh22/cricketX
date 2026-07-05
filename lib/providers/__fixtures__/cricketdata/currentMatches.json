@@ -1,0 +1,52 @@
+{
+  "apikey": "REDACTED",
+  "data": [
+    {
+      "id": "b2a3f8c1-1111-2222-3333-444455556666",
+      "name": "India vs England, 3rd T20I",
+      "matchType": "t20",
+      "status": "England need 98 runs to win",
+      "venue": "Wankhede Stadium, Mumbai",
+      "date": "2026-07-02",
+      "dateTimeGMT": "2026-07-02T13:30:00",
+      "teams": ["India", "England"],
+      "teamInfo": [
+        { "name": "India", "shortname": "IND", "img": "https://example.invalid/ind.png" },
+        { "name": "England", "shortname": "ENG", "img": "https://example.invalid/eng.png" }
+      ],
+      "score": [
+        { "r": 189, "w": 7, "o": 20, "inning": "India Inning 1" },
+        { "r": 92, "w": 3, "o": 11.2, "inning": "England Inning 1" }
+      ],
+      "series_id": "aaa11111-bbbb-cccc-dddd-eeeeffff0000",
+      "fantasyEnabled": true,
+      "bbbEnabled": true,
+      "hasSquad": true,
+      "matchStarted": true,
+      "matchEnded": false
+    },
+    {
+      "id": "c4d5e6f7-7777-8888-9999-000011112222",
+      "name": "Australia vs South Africa, 1st ODI",
+      "matchType": "odi",
+      "status": "Australia won by 24 runs",
+      "venue": "Kennington Oval, London",
+      "date": "2026-07-02",
+      "dateTimeGMT": "2026-07-02T10:00:00",
+      "teams": ["Australia", "South Africa"],
+      "teamInfo": [
+        { "name": "Australia", "shortname": "AUS" },
+        { "name": "South Africa", "shortname": "SA" }
+      ],
+      "score": [
+        { "r": 287, "w": 9, "o": 50, "inning": "Australia Inning 1" },
+        { "r": 263, "w": 10, "o": 48.3, "inning": "South Africa Inning 1" }
+      ],
+      "series_id": "bbb22222-cccc-dddd-eeee-ffff00001111",
+      "matchStarted": true,
+      "matchEnded": true
+    }
+  ],
+  "status": "success",
+  "info": { "hitsToday": 3, "hitsLimit": 100, "credits": 0, "server": 12, "offsetRows": 0, "totalRows": 2, "queryTime": 41.2 }
+}

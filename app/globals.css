@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/**
+ * StadiumX design tokens — "Premium FotMob, cricket-native" (CLAUDE.md §7).
+ * Dark-first: deep night-match navy, floodlight-gold accent used sparingly.
+ */
+@theme {
+  /* Palette */
+  --color-night: #0a0e12; /* app background — night-match navy, not pure black */
+  --color-card: #141a21; /* surface cards */
+  --color-card-raised: #1a222b; /* hover / elevated surfaces */
+  --color-edge: #1f2831; /* 1px card borders */
+  --color-ink: #e7edf3; /* primary text */
+  --color-ink-soft: #93a1b0; /* secondary text */
+  --color-ink-faint: #5f6c7a; /* tertiary text, table headers */
+  --color-gold: #f5b82e; /* floodlight gold — live pulses, boundary flashes, CTAs */
+  --color-gold-deep: #d99a0b;
+  --color-wicket: #e5484d;
+  --color-four: #3b82f6;
+  --color-six: #8b5cf6;
+
+  /* Type */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Motion — micro 150–250ms ease-out; celebratory reserved for boundaries/wickets */
+  --animate-live-pulse: live-pulse 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-fade-up: fade-up 0.3s ease-out both;
+
+  @keyframes live-pulse {
+    0%,
+    100% {
+      box-shadow: 0 0 0 0 rgb(245 184 46 / 0.55);
+    }
+    50% {
+      box-shadow: 0 0 0 5px rgb(245 184 46 / 0);
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+body {
+  @apply bg-night text-ink antialiased;
+}
+
+/* Scores are the hero — tabular numerals are mandatory (CLAUDE.md §7). */
+@utility score-figures {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Respect prefers-reduced-motion globally (CLAUDE.md §7). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

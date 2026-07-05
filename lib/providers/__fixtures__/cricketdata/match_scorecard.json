@@ -1,0 +1,101 @@
+{
+  "apikey": "REDACTED",
+  "data": {
+    "id": "b2a3f8c1-1111-2222-3333-444455556666",
+    "name": "India vs England, 3rd T20I",
+    "matchType": "t20",
+    "status": "England need 98 runs to win",
+    "venue": "Wankhede Stadium, Mumbai",
+    "date": "2026-07-02",
+    "dateTimeGMT": "2026-07-02T13:30:00",
+    "teams": ["India", "England"],
+    "score": [
+      { "r": 189, "w": 7, "o": 20, "inning": "India Inning 1" },
+      { "r": 92, "w": 3, "o": 11.2, "inning": "England Inning 1" }
+    ],
+    "matchStarted": true,
+    "matchEnded": false,
+    "scorecard": [
+      {
+        "inning": "India Inning 1",
+        "batting": [
+          {
+            "batsman": { "id": "p1-rohit", "name": "Rohit Sharma" },
+            "dismissal-text": "c Salt b Rashid",
+            "r": 41,
+            "b": 28,
+            "4s": 5,
+            "6s": 1,
+            "sr": 146.43
+          },
+          {
+            "batsman": { "id": "p1-kohli", "name": "Virat Kohli" },
+            "dismissal-text": "c Livingstone b Jordan",
+            "r": 67,
+            "b": 44,
+            "4s": 6,
+            "6s": 3,
+            "sr": 152.27
+          },
+          {
+            "batsman": { "id": "p1-jadeja", "name": "Ravindra Jadeja" },
+            "dismissal-text": "not out",
+            "r": 4,
+            "b": 3,
+            "4s": 0,
+            "6s": 0,
+            "sr": 133.33
+          }
+        ],
+        "bowling": [
+          {
+            "bowler": { "id": "p1-rashid", "name": "Adil Rashid" },
+            "o": 4,
+            "m": 0,
+            "r": 27,
+            "w": 2,
+            "eco": 6.75
+          },
+          {
+            "bowler": { "id": "p1-wood", "name": "Mark Wood" },
+            "o": 4,
+            "m": 0,
+            "r": 42,
+            "w": 1,
+            "eco": 10.5,
+            "wd": 2,
+            "nb": 1
+          }
+        ],
+        "extras": { "r": 11, "b": 1 }
+      },
+      {
+        "inning": "England Inning 1",
+        "batting": [
+          {
+            "batsman": { "id": "p1-buttler", "name": "Jos Buttler" },
+            "dismissal-text": "batting",
+            "r": 43,
+            "b": 31,
+            "4s": 4,
+            "6s": 1,
+            "sr": 138.71
+          }
+        ],
+        "bowling": [
+          {
+            "bowler": { "id": "p1-kuldeep", "name": "Kuldeep Yadav" },
+            "o": 2.2,
+            "m": 0,
+            "r": 18,
+            "w": 1,
+            "eco": 7.71
+          }
+        ],
+        "extras": { "r": 7, "b": 0 }
+      }
+    ]
+  },
+  "status": "success",
+  "info": { "hitsToday": 5, "hitsLimit": 100 }
+}

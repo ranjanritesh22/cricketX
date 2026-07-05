@@ -1,0 +1,29 @@
+{
+  "apikey": "REDACTED",
+  "data": [
+    {
+      "id": "aaa11111-bbbb-cccc-dddd-eeeeffff0000",
+      "name": "England tour of India, 2026",
+      "startDate": "2026-06-28",
+      "endDate": "Jul 06",
+      "odi": 0,
+      "t20": 5,
+      "test": 0,
+      "squads": 2,
+      "matches": 5
+    },
+    {
+      "id": "eee55555-ffff-0000-1111-222233334444",
+      "name": "Major League Cricket 2026",
+      "startDate": "2026-06-12",
+      "endDate": "2026-07-14",
+      "odi": 0,
+      "t20": 25,
+      "test": 0,
+      "squads": 6,
+      "matches": 25
+    }
+  ],
+  "status": "success",
+  "info": { "hitsToday": 7, "hitsLimit": 100 }
+}

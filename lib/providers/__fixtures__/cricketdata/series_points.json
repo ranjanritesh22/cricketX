@@ -1,0 +1,10 @@
+{
+  "apikey": "REDACTED",
+  "data": [
+    { "teamname": "MI New York", "shortname": "MINY", "img": "", "matches": 5, "wins": 4, "loss": 1, "ties": 0, "nr": 0 },
+    { "teamname": "Texas Super Kings", "shortname": "TSK", "img": "", "matches": 5, "wins": 3, "loss": 2, "ties": 0, "nr": 0 },
+    { "teamname": "Washington Freedom", "shortname": "WSH", "img": "", "matches": 4, "wins": 3, "loss": 1, "ties": 0, "nr": 0 }
+  ],
+  "status": "success",
+  "info": { "hitsToday": 8, "hitsLimit": 100 }
+}

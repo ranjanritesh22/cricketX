@@ -1,0 +1,37 @@
+{
+  "apikey": "REDACTED",
+  "data": [
+    {
+      "id": "d8e9f0a1-3333-4444-5555-666677778888",
+      "name": "New Zealand vs Pakistan, 2nd T20I",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Eden Park, Auckland",
+      "date": "2026-07-02",
+      "dateTimeGMT": "2026-07-02T07:00:00",
+      "teams": ["New Zealand", "Pakistan"],
+      "teamInfo": [
+        { "name": "New Zealand", "shortname": "NZ" },
+        { "name": "Pakistan", "shortname": "PAK" }
+      ],
+      "series_id": "ccc33333-dddd-eeee-ffff-000011112222",
+      "matchStarted": false,
+      "matchEnded": false
+    },
+    {
+      "id": "e0f1a2b3-5555-6666-7777-888899990000",
+      "name": "Ireland vs Scotland, 1st T20I",
+      "matchType": "t20",
+      "status": "Match not started",
+      "venue": "Malahide, Dublin",
+      "date": "2026-07-05",
+      "dateTimeGMT": "2026-07-05T13:00:00",
+      "teams": ["Ireland", "Scotland"],
+      "series_id": "ddd44444-eeee-ffff-0000-111122223333",
+      "matchStarted": false,
+      "matchEnded": false
+    }
+  ],
+  "status": "success",
+  "info": { "hitsToday": 4, "hitsLimit": 100, "offsetRows": 0, "totalRows": 2 }
+}
